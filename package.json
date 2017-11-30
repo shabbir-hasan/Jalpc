@@ -4,12 +4,12 @@
   "description": "npm config file for Jalpc",
   "main": "",
   "scripts": {
-    "build": "node build/build.js",
-    "dev": "node build/dev-server.js"
+    "build": "node build/build.js && jekyll build",
+    "dev": "node build/dev-server.js && jekyll serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jarrekk/Jalpc.git"
+    "url": "https://github.com/shabbir-hasan/shabbir-hasan.github.io.git"
   },
   "author": "Kun Jia",
   "license": "MIT",
@@ -32,7 +32,8 @@
     "pace-progress": "^1.0.2",
     "peity": "^3.2.0",
     "purify-css": "^1.1.9",
-    "wowjs": "^1.1.2"
+    "wowjs": "^1.1.2",
+    "jekyll": "^3.6.2"
   },
   "devDependencies": {
     "clean-css": "^4.0.6",
