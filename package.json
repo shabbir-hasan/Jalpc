@@ -2,10 +2,12 @@
   "name": "Jalpc",
   "version": "1.1.1",
   "description": "npm config file for Jalpc",
-  "main": "",
+  "main": "index.html",
   "scripts": {
-    "build": "node build/build.js && jekyll build",
+    "build": "node build/build.js",
     "dev": "node build/dev-server.js && jekyll serve"
+    "initialize": "npm-run-all build:jekyll",
+    "start": "npm-run-all build:jekyll"
   },
   "repository": {
     "type": "git",
@@ -33,7 +35,6 @@
     "peity": "^3.2.0",
     "purify-css": "^1.1.9",
     "wowjs": "^1.1.2",
-    "jekyll"
   },
   "devDependencies": {
     "clean-css": "^4.0.6",
