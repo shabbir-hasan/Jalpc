@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "build": "node build/build.js",
-    "dev": "node build/dev-server.js && jekyll serve"
+    "dev": "node build/dev-server.js && jekyll serve",
     "initialize": "npm-run-all build:jekyll",
     "start": "npm-run-all build:jekyll"
   },
@@ -34,7 +34,7 @@
     "pace-progress": "^1.0.2",
     "peity": "^3.2.0",
     "purify-css": "^1.1.9",
-    "wowjs": "^1.1.2",
+    "wowjs": "^1.1.2"
   },
   "devDependencies": {
     "clean-css": "^4.0.6",
