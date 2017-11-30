@@ -1,26 +1,26 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Jalpc
-description: Jack's blog,use Jekyll and github pages.
-keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
-baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
-url: https://jarrekk.github.io/Jalpc  # url should be 'http://<github_username>.github.io/homepage' as before
+title: Shabbir Hasan
+description: Shabbir Hasan
+keywords: Shabbir Hasan,Shabbir,Hasan,blog,Jekyll,github,gh-pages
+baseurl:  / #/Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: https://shabbir-hasan.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
-img_path: /Jalpc/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+img_path: /static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: GitHub  # Be used at blog posts' author.
-  first_name: Hub  # Be used at index page about me section.
-  last_name: Git  # Be used at index page about me section.
+  name: Shabbir Hasan  # Be used at blog posts' author.
+  first_name: Shabbir  # Be used at index page about me section.
+  last_name: Hasan  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: jarrekk  # Leave blank if you don't have now
-  linkedin_id: jarrekk # Leave blank if you don't have now
-  facebook_username: jiakunnj  # Leave blank if you don't have now
-  twitter_username: jiakun614  # Leave blank if you don't have now
-  email: me@jarrekk.com  # Leave blank if you don't have now
-  cv: http://cv.jarrekk.com  # An online CV can be printed as PDF, leave blank if you don't have now
+  github_username: shabbir-hasan  # Leave blank if you don't have now
+  linkedin_id: shabbir-hasan # Leave blank if you don't have now
+  facebook_username: ShabbirHasan2  # Leave blank if you don't have now
+  twitter_username: shabbir_hasan_  # Leave blank if you don't have now
+  email: shabbirhasan@outlook.com  # Leave blank if you don't have now
+  cv: https://www.shabbir.pw/cv.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: icon-apache
@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-linux
     - name: icon-apache
-  desc: Introduce myself will be here.  # Describe yourself.
+  desc: I am an Project Engineer in Sojitz Corporation, Jeddah, Kingdom of Saudi Arabia. I earned my B.Tech in Electrical & Electronics Engineering from UK-TECH, Dehradun India. From my childhood i have learnt things with a concentration in quantitative methods. I have always tried to focus on developing more sensitive tools to capture subtle yet meaningful changes in machines’s language and social functioning. Currently, my hobby / research is driven by the need for good outcome measures to evaluate the impact of new technologies and inventions in the area of automation and artifcial intelligent machines. I am passionate about using technology to improve how we measure machines’s behavior in a way that is both objective and quantitative. I believe using technology like machine learning makes participating in research studies more fun, and reduces the burdens placed on participants. In addition to the full day job, I do research in machine learning, data science, artificial intelligence, natural language processing, and data visualization using Python & R.  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
