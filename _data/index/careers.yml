@@ -7,7 +7,7 @@
     detail: >
       I am currently workig here as Electrical Project Engineer cum Planning Engineer for or an EPC Project 
       which is a 380kV Extra High Voltage Power Substation of Saudi Electricity Company at Al Wajh (Arabic: الوجه), 
-      which is a coastal city in north-western Saudi Arabia, situated on the coast of the Red Sea. Project Value 
+      which is a coastal city in north-western Saudi Arabia, situated on the coast of the Red Sea. The Project Value 
       is Approx 415 Million SAR.
     i18n: company_a_desc
   date:
@@ -19,15 +19,68 @@
   icon: fa-plus-square
 
 - name:
-    detail: Company B
-    i18n: company_b
+    detail: Isolux Corsán
+    i18n: company_a
   desc:
-    detail: I worked at Company B ...
-    i18n: company_b_desc
+    detail: >
+      I have worked here as Planning Engineer for 04 (Four) No's of EPC Project which were 02 No's of 132kV Extra High Voltage 
+      Power Substation of Saudi Electricity Company (SEC-EOA), Dammam, KSA and  02 No's of 132 Extra High Voltage Power Substation
+      of Ministry of Electricity and Water (MEW), Kuwait City. The Projects Value was 374 Million SAR.
+    i18n: company_a_desc
   date:
-    detail: Jun. 2015
-    i18n: company_b_date
+    detail: Dec 2015 - Feb 2016, Dammam KSA
+    i18n: company_a_date
   job:
-    detail: Full Stack Developer
-    i18n: company_b_job
+    detail: Planning & Scheduling Engineer
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: KEC International Limited 
+    i18n: company_a
+  desc:
+    detail: >
+      I have worked here as Project Coordinator and Planning Engineer for 02 (two) No's of EPC Project which were 02 No's of 132kV
+      Extra High Voltage Power Substation of National Grid & Saudi Electricity Company (NG-SEC-EOA), Dammam, Kingdom of Saudi Arabia.
+      The Projects Value was 169 Million SAR.
+    i18n: company_a_desc
+  date:
+    detail: Jul 2014 - Nov 2015, Dammam KSA
+    i18n: company_a_date
+  job:
+    detail: Project Coordinator & Planning Engineer
+    i18n: company_a_job
+  icon: fa-plus-square
+  
+- name:
+    detail: Toshiba Transmission & Distribution Systems Asia Sdn. Bhd. 
+    i18n: company_a
+  desc:
+    detail: >
+      I have worked here as Project Coordinator and Planning Engineer for mutiple EPC Project which were all Extra High Voltage Power 
+      Substation (T & D volatge level ranging from 11kV to 765kV) for different electricity board of different states accros India.
+    i18n: company_a_desc
+  date:
+    detail: Sep 2013 - Aug 2014, India
+    i18n: company_a_date
+  job:
+    detail: Project Coordinator & Planning Engineer
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: Vijai Electricals Limited (Now Toshiba India)
+    i18n: company_a
+  desc:
+    detail: >
+      I have started my profeesional life from here beginning as Graduate Engineering Trainee to Planning Engineer for mutiple EPC 
+      Project which were all Extra High Voltage Power Substation (T & D volatge level ranging from 11kV to 765kV) for different 
+      electricity board of different states accros India accros India.
+    i18n: company_a_desc
+  date:
+    detail: Jul 2010 - Aug 2013, India
+    i18n: company_a_date
+  job:
+    detail: From G.E.T to Planning Engineer
+    i18n: company_a_job
   icon: fa-plus-square
