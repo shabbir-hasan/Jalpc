@@ -5,7 +5,7 @@ date:   2017-12-05
 desc: "Hi! I am Shabbir Hasan, an Electrical Engineer"
 keywords: "Shabbir,Hasan,Shabbir-Hasan,Jekyll,gh-pages,website,blog,easy"
 categories: [HTML]
-tags: [Jalpc,Jekyll]
+tags: [Shabbir-Hasan,Shabbir,Hasan,Jekyll]
 icon: icon-html
 ---
 # Hello! Welcome to my [website](https://www.shabbir.pw/).
