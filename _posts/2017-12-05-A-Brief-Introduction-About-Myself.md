@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "A Brief Introduction About Myself"
+date:   2017-12-05
+desc: "Hi! I am Shabbir Hasan, an Electrical Engineer"
+keywords: "Shabbir,Hasan,Shabbir-Hasan,Jekyll,gh-pages,website,blog,easy"
+categories: [HTML]
+tags: [Jalpc,Jekyll]
+icon: icon-html
+---
 # Hello! Welcome to my [website](https://www.shabbir.pw/).
 
 Hi!  I am **Shabbir Hasan**, an Electrical Engineer and currently i am working full time in [Sojitz Corporation](https://www.sojitz.com/en/) as a Electrical Project Engineer for an EPC Project i.e. 380kV Extra High Voltage Power Substation of Saudi Electricity Company. 
