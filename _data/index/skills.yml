@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Project Management, Project Coordination, Projects Control, Planning, Scheduling, Primavera, Ms Projects, Excel, Python, Rust, GoLang, R Lang, GitHub,
-percentage: 95, 85, 90, 95, 95, 85, 90, 100, 75, 50, 45, 25, 50
+aspects: Project Management, Project Coordination, Projects Control & Monitoring, Budgeting & Cost Control, Tendering & Estimation, Planning, Scheduling, Primavera, Ms Projects, Excel, Python, Rust, GoLang, R Lang, GitHub,
+percentage: 95, 90, 90, 95, 85, 97, 95, 93, 95, 100, 75, 55, 60, 45, 35
