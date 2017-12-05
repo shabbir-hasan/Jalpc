@@ -6,15 +6,15 @@
   desc:
     detail: >
     I am currently workig here as Electrical Project Engineer cum Planning Engineer for or an EPC Project 
-    i.e. 380kV Extra High Voltage Power Substation of Saudi Electricity Company at Al Wajh (Arabic: الوجه), 
-    which is a coastal city in north-western Saudi Arabia, situated on the coast of the Red Sea. Project value 
+    which is a 380kV Extra High Voltage Power Substation of Saudi Electricity Company at Al Wajh (Arabic: الوجه), 
+    which is a coastal city in north-western Saudi Arabia, situated on the coast of the Red Sea. Project Value 
     is Approx 415 Million SAR.
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: Feb 2016 - Present, Jeddah KSA
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: Electrical Project Engineer
     i18n: company_a_job
   icon: fa-plus-square
 
