@@ -1,10 +1,10 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: Sojitz Corporation
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: I am currently workig here as Electrical Project Engineer cum Planning Engineer for or an EPC Project i.e. 380kV Extra High Voltage Power Substation of Saudi Electricity Company at Al Wajh (Arabic: الوجه‎), which is a coastal city in north-western Saudi Arabia, situated on the coast of the Red Sea. Project value is Approx 415 Million SAR.
     i18n: company_a_desc
   date:
     detail: Apr. 2016
