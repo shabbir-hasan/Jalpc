@@ -1,13 +1,13 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
+- name: Shabbir Hasan
+  i18n: Shabbir Hasan
+  gh_user: shabbir-hasan
+  repo: shabbir-hasan.github.io
   img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
-
+  desc: This project is to create my personal website using Jekyll. I have been inspired by Jalpc at https://github.com/jarrekk/Jalpc
+  
 - name: Python
   i18n: cpython
   gh_user: python
