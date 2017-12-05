@@ -6,7 +6,7 @@ desc: "Hi! I am Shabbir Hasan, an Electrical Engineer"
 keywords: "Shabbir,Hasan,Shabbir-Hasan,Jekyll,gh-pages,website,blog,easy"
 categories: [HTML]
 tags: [Shabbir-Hasan,Shabbir,Hasan,Jekyll]
-icon: icon-html
+icon: fa-user-circle
 ---
 # Hello! Welcome to my [website](https://www.shabbir.pw/).
 
