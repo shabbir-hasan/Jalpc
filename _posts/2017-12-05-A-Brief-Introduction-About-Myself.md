@@ -10,7 +10,7 @@ icon: icon-html
 ---
 # Hello! Welcome to my [website](https://www.shabbir.pw/).
 
-Hi!  I am **Shabbir Hasan**, an Electrical Engineer and currently i am working full time in [Sojitz Corporation](https://www.sojitz.com/en/) as a Electrical Project Engineer for an EPC Project i.e. 380kV Extra High Voltage Power Substation of Saudi Electricity Company. 
+Hi!  I am **Shabbir Hasan**, an Electrical Engineer and currently i am working full time in [Sojitz Corporation](https://www.sojitz.com/en/) as a Electrical Project Engineer for an EPC Project i.e. [380kV Extra High Voltage Power Substation](https://goo.gl/maps/1iXuq3x6TeF2) of Saudi Electricity Company at Al Wajh (Arabic: الوجه‎), which is a coastal city in north-western Saudi Arabia, situated on the coast of the Red Sea. 
 
 Previously I have worked with the following companies:
  1. [Isolux Corsán](http://www.isoluxcorsan.com/en/)
