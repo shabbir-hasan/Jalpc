@@ -9,14 +9,20 @@
 - name: Linux
   href: /linux/
 
-- name: HTML
-  href: /html/
+- name: Machinelearning
+  href: /machinelearning/
 
-- name: Database
-  href: /database/
+- name: Golang
+  href: /golang/
 
-- name: Mac
-  href: /mac/
+- name: Rust
+  href: /rust/
+  
+- name: Rlang
+  href: /rlang/
+  
+- name: Lamnda
+  href: /lambda/
 
 - name: Life
   href: /life/
