@@ -1,18 +1,18 @@
 # links section data
-- last_name: Name 1
-  first_name:
-  desc: CEO
-  website: https://www.google.com
-  email: ceo@google.com
+- last_name: Samar
+  first_name: Sadia
+  desc: Company Secretary Executive
+  website: https://www.shabbir.pw/blog/
+  email: sadia_samar@yahoo.in
 
-- last_name: Donate
-  first_name: Jalpc
-  desc: Support Jalpc
-  website: http://www.jarrekk.com/donate/
-  email: me@jarrekk.com
+- last_name: Hasan
+  first_name: Shabbir
+  desc: Electrical Engineer
+  website: https://shabbir-hasan.github.io/blog/
+  email: shabbirhasan@outlook.com
 
-- last_name: LN
-  first_name: FN
-  desc: COO
-  website: https://github.com
-  email: coo@google.com
+- last_name: Techfane
+  first_name: Ltd.
+  desc: Dream Company of Mine
+  website: http://www.techfane.com/
+  email: admin@techfane.com
