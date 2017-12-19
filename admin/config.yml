@@ -1,0 +1,28 @@
+backend:
+  name: github
+  repo: shabbir-hasan/shabbir-hasan.github.io # Path to your GitHub repository
+  branch: master # Branch to update (master by default)
+  
+publish_mode: editorial_workflow
+
+media_folder: "static/assets/img/blog" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "_posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    sort: "date:asc" # Default is title:asc
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Description", name: "desc", widget: "string"}
+      - {label: "Category", name: "categories", widget: "list", default: [Life]}
+      - {label: "Tags", name: "tags", widget: "list", default: ["Shabbir-Hasan","ShabbirHasan","Shabbir","Hasan","Jekyll"]}
+      - {label: "Icon", name: "icon", widget: "string", default: "icon-html"}
+      - {label: "Keywords", name: "keywords", widget: "strings"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "published", widget: "hidden", default: "false"}
+      meta: # Meta data fields. Just like fields, but without any preview element
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
