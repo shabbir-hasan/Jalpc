@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Trying out Netlify CMS
+date:   2017-12-20
 desc: Trying out Netlify CMS
+keywords: 'Shabbir-Hasan, ShabbirHasan, Shabbir, Hasan, Jekyll'
 categories:
   - Lambda
 tags:
@@ -11,7 +13,5 @@ tags:
   - Hasan
   - Jekyll
 icon: icon-html
-keywords: 'Shabbir-Hasan, ShabbirHasan, Shabbir, Hasan, Jekyll'
-published: 'false'
 ---
 # Hello World
