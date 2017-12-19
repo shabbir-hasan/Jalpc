@@ -21,7 +21,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Category", name: "categories", widget: "list", default: [Life]}
       - {label: "Tags", name: "tags", widget: "list", default: ["Shabbir-Hasan","ShabbirHasan","Shabbir","Hasan","Jekyll"]}
       - {label: "Icon", name: "icon", widget: "string", default: "icon-html"}
-      - {label: "Keywords", name: "keywords", widget: "strings"}
+      - {label: "Keywords", name: "keywords", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Draft", name: "published", widget: "hidden", default: "false"}
     meta: # Meta data fields. Just like fields, but without any preview element
