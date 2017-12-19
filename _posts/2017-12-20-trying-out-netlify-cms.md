@@ -3,7 +3,7 @@ layout: post
 title: Trying out Netlify CMS
 desc: Trying out Netlify CMS
 categories:
-  - HTML
+  - Lambda
 tags:
   - Shabbir-Hasan
   - ShabbirHasan
