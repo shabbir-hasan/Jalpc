@@ -28,6 +28,7 @@ By using Netlify CMS, we can add a management screens to the static site generat
 ## Convinced Enough! Now Let's get our hand dirty with Netlify CMS.
 
 ### What is [Netlify CMS](https://www.netlifycms.org/) ?
+
 ![Netlify CMS](https://www.shabbir.pw/static/assets/img/blog/Netlify-CMS.jpg)
 
 I will add an administrative screen to [my site](https://www.shabbir.pw/) which i have made last time *(This is the state where I put in Netlify CMS and I do not know from the outside ...)*
@@ -39,6 +40,7 @@ I will add an administrative screen to [my site](https://www.shabbir.pw/) which 
  4. Release at the end
 
 ### Step-1: GitHub authentication
+
 In order to link Netlify CMS and your GitHub Repository, authentication is required first.
 
 Open " [Developer Applications](https://github.com/settings/developers) " in the settings of your GitHub's account page .
@@ -57,6 +59,7 @@ Next to the management screen of Netlify.
 [Netlify Dashboard](https://app.netlify.com/)
 
 Select the site you want to add CMS and open the Access tab.
+
 ![Access Control](https://www.shabbir.pw/static/assets/img/blog/Access-Control.jpg)
 
 Since there is "Authentication providers" in the lower part, click "Install provider" there. Select "GitHub" from provider list and enter "Client ID" and "Client Secret" to install.
@@ -313,4 +316,4 @@ The source code of this website is here.
 
 https://github.com/shabbir-hasan/shabbir-hasan.github.io
 
-Thank You :smiley:  :thumbsup: :ok_hand:
+Thank You :smiley: :thumbsup: :ok_hand:
