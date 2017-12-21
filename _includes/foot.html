@@ -6,7 +6,7 @@
 
 <div class="container">
 <div class="row">
-{% for contact in site.data.index.links %}
+{% for contact in site.data.index.contact %}
     {% assign loopindex = forloop.index | modulo: 3 %}
     {% if forloop.last %}
         {% if forloop.last == forloop.first %}
