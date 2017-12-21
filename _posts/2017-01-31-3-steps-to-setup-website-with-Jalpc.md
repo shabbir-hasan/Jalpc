@@ -18,7 +18,9 @@ So, if you like this website <https://jarrekk.github.io/Jalpc/> or <http://www.j
 	<!-- ![edit]({{ site.img_path }}/3steps/edit.gif) -->
 	<p align="center"><img align="middle" src="{{ site.img_path }}/3steps/edit.gif" width="75%"></p>
 	
-	<p align="center">![PEP8LineLengths_46](static/assets/img/blog/3steps/edit.gif)<!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+	<p align="center">
+	![PEP8LineLengths_46](static/assets/img/blog/3steps/edit.gif)<!-- .element height=auto width=auto max-height=100% max-width=100% -->
+</p>
 
 2. Enter into repository directory and edit following file list:
 
