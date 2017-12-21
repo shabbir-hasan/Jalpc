@@ -16,7 +16,7 @@ So, if you like this website <https://jarrekk.github.io/Jalpc/> or <http://www.j
 1. Fork [this project -- Jalpc](https://github.com/jarrekk/Jalpc) at [GitHub](https://github.com). If you want to edit website at github, do it as following gif or clone forked repository. `git clone git@github.com:github_username/Jalpc.git`.
 
 	<!-- ![edit]({{ site.img_path }}/3steps/edit.gif) -->
-	<p align="center"><img src="{{ site.img_path }}/3steps/edit.gif"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+	<p align="center"><img src="{{ site.img_path }}/3steps/edit.gif"><!-- .element height=auto width=75% max-height=100% max-width=100% --></p>
 	
 2. Enter into repository directory and edit following file list:
 
