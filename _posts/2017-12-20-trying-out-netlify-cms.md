@@ -29,7 +29,7 @@ By using Netlify CMS, we can add a management screens to the static site generat
 
 ### What is [Netlify CMS](https://www.netlifycms.org/) ?
 
-<p align="center"><img src="{{ site.img_path }}/Netlify-CMS.jpg" alt="Netlify CMS" height="auto" width="auto" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/Netlify-CMS.JPG" alt="Netlify CMS" height="auto" width="75%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 I will add an administrative screen to [my site](https://www.shabbir.pw/) which i have made last time *(This is the state where I put in Netlify CMS and I do not know from the outside ...)*
 
@@ -49,7 +49,7 @@ Click on  "Register a new application".
 
 I will enter it like this. I think that you understand mostly. For "Authorization callback URL" enter "https://api.netlify.com/auth/done".
 
-<p align="center"><img src="{{ site.img_path }}/GitHub-Register-a-new-application.jpg" alt="Register a New Oauth Application at GitHub" height="auto" width="auto" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/GitHub-Register-a-new-application.JPG" alt="Register a New Oauth Application at GitHub" height="auto" width="75%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 After inputting, press "Register application" button.
 
@@ -61,11 +61,11 @@ Next to the management screen of Netlify.
 
 Select the site you want to add CMS and open the Access tab.
 
-<p align="center"><img src="{{ site.img_path }}/Access-Control.jpg" alt="Access Control" height="auto" width="auto" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/Access-Control.JPG" alt="Access Control" height="auto" width="75%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 Since there is "Authentication providers" in the lower part, click "Install provider" there. Select "GitHub" from provider list and enter "Client ID" and "Client Secret" to install.
 
-<p align="center"><img src="{{ site.img_path }}/authmodal.png" alt="Install Authentication Provider" height="auto" width="auto" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/authmodal.png" alt="Install Authentication Provider" height="auto" width="75%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 This is OK!
 
@@ -133,15 +133,15 @@ By pushing and merging to master branch with this, management screen will be cre
 
 By entering "/admin" after the URL which will be in our case "https://www.shabbir.pw/admin/" , it will open the the management screen, you will be able to login with GitHub authentication when this login screen appears. It is a beautiful view, Isn't it?
 
-<p align="center"><img src="{{ site.img_path }}/Managemnt-Screen.png" alt="Netlify CMS Management Page" height="auto" width="auto" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/Managemnt-Screen.PNG" alt="Netlify CMS Management Page" height="auto" width="75%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 After successful log in you will be presented with the articles you wrote last time!
 
-<p align="center"><img src="{{ site.img_path }}/netlifyadmin.png" alt="Admin Page" height="auto" width="auto" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/netlifyadmin.png" alt="Admin Page" height="auto" width="75%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 The article contribution or post page looks something like this.
 
-<p align="center"><img src="{{ site.img_path }}/netlifycmspost.png" alt="Post Page" height="auto" width="auto" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/netlifycmspost.png" alt="Post Page" height="auto" width="75%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 The content you write is reflected in real time on the right side, you can also use markdown. Categories and tags set in config.yml can also be set on the posting screen. Operation of the editor area should be easy to operate without difficulty if you have written a blog.
 
@@ -170,11 +170,11 @@ Just by adding the following you can do it.
 
 When this is added, the menu called Editorial Workflow
 
-<p align="center"><img src="{{ site.img_path }}/workflowmenu.png" alt="Editorial Workflow Menu" height="auto" width="auto" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/workflowmenu.png" alt="Editorial Workflow Menu" height="auto" width="75%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 This page looks like this.
 
-<p align="center"><img src="{{ site.img_path }}/EditorialWorkflow1.png" alt="Editorial Workflow Page" height="auto" width="auto" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/EditorialWorkflow1.png" alt="Editorial Workflow Page" height="auto" width="75%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 Drag and drop to review status, I hope the state is easy to understand!
 
@@ -303,7 +303,7 @@ Although it got longer, the setting itself is to create an admin folder and crea
 
 I have made two and pushed to master, I wrote an article and released it, it was displayed properly! Categories, tags, icons are also available.
 
-<p align="center"><img src="{{ site.img_path }}/netlifycmspublish.jpg" alt="Final Blog Page" height="auto" width="auto" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/netlifycmspublish.jpg" alt="Final Blog Page" height="auto" width="85%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 Again, that site.
 
