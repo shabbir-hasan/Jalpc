@@ -25,7 +25,7 @@ icon: fa-file-code-o
 Recently, Twitter upped their single-tweet character limit from 140 to 280, purportedly based on this [interesting analysis of tweet lengths](https://blog.twitter.com/engineering/en_us/topics/insights/2017/Our-Discovery-of-Cramming.html) published on Twitter's engineering blog.
 The gist of the analysis is this: English language tweets display a roughly log-normal distribution of character counts, except near the 140-character limit, at which the distribution spikes:
 
-![png](static/assets/img/blog/python/htellp//tweet_lengths.png)
+<p align="center"><img src="{{ site.img_path }}/python/htellp/tweet_lengths.png" alt="tweet_lengths" height="auto" width="95%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 The analysis takes this as evidence that twitter users often "cram" their longer thoughts into the 140 character limit, and suggest that a 280-character limit would more naturally accommodate the distribution of people's desired tweet lengths.
 
@@ -107,7 +107,7 @@ plt.hist(lengths, bins=np.arange(max(lengths)), histtype='step', linewidth=1);
 ```
 
 
-![png](static/assets/img/blog/python/htellp//PEP8LineLengths_11_0.png)
+<p align="center"><img src="{{ site.img_path }}/python/htellp/PEP8LineLengths_11_0.png" alt="PEP8LineLengths_11" height="auto" width="95%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 
 The distribution is dominated by lines of length 1 (i.e. containing only a newline character): let's go ahead and remove these, and also narrow the x limits:
@@ -119,7 +119,7 @@ plt.hist(lengths, bins=np.arange(125), histtype='step', linewidth=1);
 ```
 
 
-![png](static/assets/img/blog/python/htellp//PEP8LineLengths_13_0.png)
+<p align="center"><img src="{{ site.img_path }}/python/htellp/PEP8LineLengths_13_0.png" alt="PEP8LineLengths_13" height="auto" width="95%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 
 Now this is looking interesting!
@@ -190,7 +190,7 @@ plt.hist(lengths, bins=np.arange(125), histtype='step', linewidth=1);
 ```
 
 
-![png](static/assets/img/blog/python/htellp//PEP8LineLengths_23_0.png)
+<p align="center"><img src="{{ site.img_path }}/python/htellp/PEP8LineLengths_23_0.png" alt="PEP8LineLengths_23" height="auto" width="95%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 
 That's a much cleaner distribution!
@@ -234,7 +234,7 @@ for axi in ax[:, 1:].flat:
 ```
 
 
-![png](static/assets/img/blog/python/htellp//PEP8LineLengths_28_0.png)
+<p align="center"><img src="{{ site.img_path }}/python/htellp/PEP8LineLengths_28_0.png" alt="PEP8LineLengths_28" height="auto" width="95%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 
 The results here are quite interesting: similar to Twitter's tweet length analysis, we see that each of these packages have a somewhat smooth distribution of characters, with a "bump" at or near the 79-character PEP8 limit!
@@ -332,7 +332,7 @@ plt.plot(x, lognorm_model(x, 1000, 3.5, 0.7));
 ```
 
 
-![png](static/assets/img/blog/python/htellp//PEP8LineLengths_37_0.png)
+<p align="center"><img src="{{ site.img_path }}/python/htellp/PEP8LineLengths_37_0.png" alt="PEP8LineLengths_37" height="auto" width="95%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 
 That seems like an appropriate shape for the left portion of our datasets; let's try optimizing the parameters to fit the counts of lines up to length 50:
@@ -359,7 +359,7 @@ plt.fill_between(lengths, lognorm_model(lengths, *opt.x), alpha=0.3, color='gray
 
 
 
-![png](static/assets/img/blog/python/htellp//PEP8LineLengths_39_1.png)
+<p align="center"><img src="{{ site.img_path }}/python/htellp/PEP8LineLengths_39_1.png" alt="PEP8LineLengths_39" height="auto" width="95%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 
 Seems like a reasonable fit! From this, you could argue (as the Twitter engineering team did) that the line lengths might "naturally" follow a log-normal distribution, if it weren't for the artificial imposition of the PEP8 maximum line length.
@@ -428,7 +428,7 @@ for axi in ax[:, 1:].flat:
 ```
 
 
-![png](static/assets/img/blog/python/htellp//PEP8LineLengths_44_0.png)
+<p align="center"><img src="{{ site.img_path }}/python/htellp/PEP8LineLengths_44_0.png" alt="PEP8LineLengths_44" height="auto" width="95%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 
 It is also interesting to use these summary statistics as a way of describing the "essence" of each package, in order to compare them directly:
@@ -449,7 +449,7 @@ plt.xlim(30, 41);
 ```
 
 
-![png](static/assets/img/blog/python/htellp//PEP8LineLengths_46_0.png)
+<p align="center"><img src="{{ site.img_path }}/python/htellp/PEP8LineLengths_46_0.png" alt="PEP8LineLengths_46" height="auto" width="95%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 
 ## Discussion
