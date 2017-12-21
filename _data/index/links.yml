@@ -2,17 +2,26 @@
 - last_name: Sadia
   first_name: Samar
   desc: Company Secretary Executive
-  website: https://www.shabbir.pw/blog/
+  website: https://www.shabbir.pw/
   email: sadia_samar@yahoo.in
+  facebook_username: ShabbirHasan2  # Leave blank if you don't have now
+  instagram_username: shabbirhasan2 # Leave blank if you don't have now
+  twitter_username: shabbir_hasan_  # Leave blank if you don't have now
 
 - last_name: Shabbir
   first_name: Hasan
   desc: Electrical Engineer
-  website: https://shabbir-hasan.github.io/blog/
+  website: https://www.shabbir.pw/blog/
   email: shabbirhasan@outlook.com
+  facebook_username: sadia.samar1
+  twitter_username: SamarSadia
+  instagram_username: sadiasamar
 
 - last_name: Techfane
   first_name: Ltd.
   desc: Dream Company of Mine
   website: http://www.techfane.com/
   email: admin@techfane.com
+  facebook_username:
+  twitter_username: 
+  instagram_username:  
