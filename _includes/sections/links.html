@@ -21,19 +21,11 @@
             <h4><span class="navy">{{ link.last_name }}</span> {{ link.first_name }}</h4>
             <p>{{ link.desc }}</p>
             <ul class="list-inline social-icon">
-                {% if site.author.facebook_username %}
-                <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a></li>
-                {% endif %}
-                {% if site.author.twitter_username %}
-                <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a></li>
-                {% endif %}
-                {% if site.author.instagram_username %}
-                <li><a href="https://instagram.com/{{ site.author.instagram_username }}" target="blank"><i class="fa fa-instagram"></i></a></li>
-                {% endif %}
-                <li><a href="{{ link.website }}" target="blank"><i class="fa fa-link"></i></a>
-                </li>
-                <li><a href="mailto:{{ link.email }}"><i class="fa fa-envelope-o"></i></a>
-                </li>
+                <li><a href="https://www.facebook.com/{{ link.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/{{ link.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com/{{ link.instagram_username }}" target="blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="{{ link.website }}" target="blank"><i class="fa fa-link"></i></a></li>
+                <li><a href="mailto:{{ link.email }}"><i class="fa fa-envelope-o"></i></a></li>
             </ul>
         </div>
         </div>
