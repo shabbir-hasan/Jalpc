@@ -16,13 +16,13 @@ tags:
 icon: fa-file-code-o
 ---
 
-# Exploring Line Lengths in Python Packages
+# How to Explore Line Lengths in Python with Jupyter Notebook
 
 *This notebook originally appeared as a [post](http://jakevdp.github.io/blog/2017/11/09/exploring-line-lengths-in-python-packages/) on the blog [Pythonic Perambulations](http://jakevdp.github.io). The code content is MIT licensed.*
 
 <!-- PELICAN_BEGIN_SUMMARY -->
 
-This week, Twitter upped their single-tweet character limit from 140 to 280, purportedly based on this [interesting analysis of tweet lengths](https://blog.twitter.com/engineering/en_us/topics/insights/2017/Our-Discovery-of-Cramming.html) published on Twitter's engineering blog.
+Recently, Twitter upped their single-tweet character limit from 140 to 280, purportedly based on this [interesting analysis of tweet lengths](https://blog.twitter.com/engineering/en_us/topics/insights/2017/Our-Discovery-of-Cramming.html) published on Twitter's engineering blog.
 The gist of the analysis is this: English language tweets display a roughly log-normal distribution of character counts, except near the 140-character limit, at which the distribution spikes:
 
 ![png](static/assets/img/blog/python/htellp//tweet_lengths.png)
@@ -33,7 +33,7 @@ This immediately brought to mind another character limit that many Python progra
 
 > Limit all lines to a maximum of 79 characters.
 
-I began to wonder whether popular Python packages (e.g. NumPy, SciPy, Pandas, Scikit-Learn, Matplotlib, AstroPy) display anything similar to what is seen in the distribution of tweet lengths.
+Every python enthusiast began to wonder whether popular Python packages (e.g. NumPy, SciPy, Pandas, Scikit-Learn, Matplotlib, AstroPy) display anything similar to what is seen in the distribution of tweet lengths.
 
 Spoiler alert: they do! And the details of the distribution reveal some insights into the programming habits and stylistic conventions of the communities who write them.
 
@@ -54,7 +54,7 @@ numpy.__path__
 
 
 
-    ['/Users/jakevdp/anaconda/lib/python3.6/site-packages/numpy']
+    ['/Users/shabbir/anaconda/lib/python3.6/site-packages/numpy']
 
 
 
@@ -85,7 +85,7 @@ len(list(lines))
 
 
 
-    179615
+    [out] 179615
 
 
 
@@ -136,7 +136,7 @@ np.argmax(np.bincount(lengths))
 
 
 
-    13
+    [out] 13
 
 
 
@@ -151,7 +151,7 @@ len(lines13)
 
 
 
-    3637
+    [out] 3637
 
 
 
@@ -252,7 +252,7 @@ np.argmax(counts)
 
 
 
-    29
+    [out] 29
 
 
 
@@ -355,7 +355,7 @@ print("optimal parameters:", opt.x)
 plt.fill_between(lengths, lognorm_model(lengths, *opt.x), alpha=0.3, color='gray');
 ```
 
-    optimal parameters: [  9.92126791e+04   3.75476977e+00   5.19760726e-01]
+    [out] optimal parameters: [  9.92126791e+04   3.75476977e+00   5.19760726e-01]
 
 
 
@@ -454,7 +454,7 @@ plt.xlim(30, 41);
 
 ## Discussion
 
-I found it curious that a log-normal distribution fits both tweets and lines of code. Doing some digging, I found some [literature on the subject](https://epjdatascience.springeropen.com/articles/10.1140/epjds14) of message lengths on the internet. This study finds that across languages and mediums, comment lengths follow a log-normal distribution quite closely. They propose a mechanism related to the [Weber-Fechner law](https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law), which suggests a logarithmic scale in degrees of perception. It seems reasonable that lengths of code lines would respond to the same mechanism.
+You may find it curious that a log-normal distribution fits both tweets and lines of code. Doing some digging, We have found some [literature on the subject](https://epjdatascience.springeropen.com/articles/10.1140/epjds14) of message lengths on the internet. This study finds that across languages and mediums, comment lengths follow a log-normal distribution quite closely. They propose a mechanism related to the [Weber-Fechner law](https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law), which suggests a logarithmic scale in degrees of perception. It seems reasonable that lengths of code lines would respond to the same mechanism.
 
 As for the data, I think it's quite interesting what this reveals about each project's commitment to the PEP8 line length.
 Pandas, Scikit-Learn, and Matplotlib seem to be strongly committed to keeping their lines below 79 characters; by contrast, AstroPy doesn't seem to mind the occasional long line (though it does still display a "cramming" pattern, to use the parlance of the Twitter team's analysis).
@@ -475,14 +475,14 @@ Keep in mind that all of this is based on a couple fairly strong assumptions:
 
 We *could* follow the lead of the Twitter engineering team, and use this analysis to argue that the PEP8 line length limit should be lifted, so as to not constrain people's "natural" inclinations toward the top end of each distribution. But I think that good arguments can be made, in both the case of PEP8 and Twitter's character limit, that this is too eager an interpretation.
 
-Those controversies aside, it would be interesting to dive a bit deeper into this kind of analysis. I can think of a few interesting question you could ask:
+Those controversies aside, it would be interesting to dive a bit deeper into this kind of analysis. We can think of a few interesting question that may arise in our minds:
 
 - Where do other Python packages fit on the mode/spread graph?
 - Has the coding style in these packages, reflected in line length, evolved over time?
 - How do individual contributors behave? Do they tend to have similar habits across packages?
 - What do these distributions look like for code written in other languages?
 
-All of these would be interesting to address, but I've spent enough words on this already: I'll leave those questions for another time, or another person. Thanks for reading!
+All of these would be interesting to address, but you have already read enough words on this: You may leave those questions for another time, or another person. Thanks for reading!
 
 *This post was written entirely in the Jupyter notebook.  You can
 [download](http://jakevdp.github.io/downloads/notebooks/PEP8LineLengths.ipynb)
