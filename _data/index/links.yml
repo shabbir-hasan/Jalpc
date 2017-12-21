@@ -1,12 +1,12 @@
 # links section data
-- last_name: Samar
-  first_name: Sadia
+- last_name: Sadia
+  first_name: Samar
   desc: Company Secretary Executive
   website: https://www.shabbir.pw/blog/
   email: sadia_samar@yahoo.in
 
-- last_name: Hasan
-  first_name: Shabbir
+- last_name: Shabbir
+  first_name: Hasan
   desc: Electrical Engineer
   website: https://shabbir-hasan.github.io/blog/
   email: shabbirhasan@outlook.com
