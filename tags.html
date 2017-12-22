@@ -1,0 +1,42 @@
+---
+title: Tags
+permalink: "/tags/"
+layout: blog
+---
+
+<div class="col-lg-8 col-lg-offset-2 text-center">
+    <div class="navy-line"></div>
+    <h2>BEND Tags</h2>
+  </div>
+</div>
+<div class="col-md-9">
+  <div class="ibox text-center">
+    <div class="ibox-content tagcloud">
+      <ul class="tag-cloud">
+      {% for tag in site.tags %}
+        <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
+          <a class="page-scroll" href="#{{ tag | first | slugize }}">
+            <span>{{ tag | first }}</span>
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div id="archives" class="ibox">
+  {% for tag in site.tags %}
+    <div class="ibox-content">
+      {% capture tag_name %}{{ tag | first }}{% endcapture %}
+      <section id="{{ tag_name | slugize }}">
+      <a class="anchor" name="{{ tag_name | slugize }}"></a>
+      <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
+      </section>
+      {% for post in site.tags[tag_name] %}
+      <article class="archive-item">
+        <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+      </article>
+      {% endfor %}
+    </div>
+  {% endfor %}
+  </div>
+</div>
