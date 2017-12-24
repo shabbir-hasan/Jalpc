@@ -13,7 +13,7 @@ tags:
   - Python
   - Jupyter-Notebook
   - Shabbir-Hasan
-icon: fa-file-code-o
+icon: icon-python
 ---
 
 # How to Explore Line Lengths in Python with Jupyter Notebook
