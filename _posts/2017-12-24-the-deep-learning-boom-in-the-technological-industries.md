@@ -21,9 +21,9 @@ _Technology Analysts love trending topics. In fact, that’s their job: forecast
 
 <p align="center"><img src="{{ site.img_path }}/machinelearning/AI-Artificial-Intelligence.png" alt="Deep-Learning-Artificial-Intelligence-Machine-Learning" height="auto" width="75%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
+- - -
 
 # What’s New?
-- - -
 
 Neural Network algorithms are the main science behind Deep Learning. They are not new but became more popular in the mid-2000s after [Geoffrey Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton) and [Ruslan Salakhutdinov](http://www.cs.toronto.edu/~rsalakhu/) published a paper explaining how we could train a many-layered [feedforward neural network](https://en.wikipedia.org/wiki/Feedforward_neural_network) one layer at a time. The large-scale impact of Deep Learning in Big Tech Companies began around 2010 with speech recognition.
 
@@ -37,9 +37,9 @@ This is a big turn in history. Before Neural Networks, humans thought they were 
 
 This video of a simple machine trained with the [DeepMind](https://deepmind.com/) algorithm is a very good illustration of the superior “intelligence” of the machine. The computer learns to win the game and at the end discovers tricks that nobody found before. It’s no longer about Brute-Force algorithms, but about the replication of complex human behavior. For instance, the same DeepMind team (recently bought by Google) won the game of [Go](https://googleblog.blogspot.com/2016/01/alphago-machine-learning-game-go.html) against the best European player, something that no computer could do before Deep Learning.
 
+- - -
 
 # Applications
-- - -
 
 A well-known application of Deep Learning is face recognition. Google Photos, for instance, is a very good example of this technology. It can even recognize your face from 20 years ago! To simplify, we could say that the first layer of neurons can recognize a circle, the second an iris, and the third an eye. If the computer has been trained well enough, it can recognize abstract entities like a face with a good probability.
 
@@ -53,9 +53,9 @@ Facebook hired Yann LeCun to head its new A.I. lab and one year later hired [Vla
 
 The battle is starting and we don’t know yet who will win this deep learning fight. The main question is about how it will impact our daily life. Will we become as powerful as James Bond, a personal version of Moneypenny in our pocket (the Facebook virtual assistant “[M](https://www.messenger.com/m)” )? Will we all lose our jobs and be replaced by machines? Maybe both?
 
+- - -
 
 # What kind of future will appear?
-- - -
 
 The super-intelligence of connected machines, which humans may not be able to fully understand, could become a potential threat tomorrow. Stephen Hawking, Bill Gates, and Elon Musk have warned us about it.
 
