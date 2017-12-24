@@ -3,7 +3,7 @@ layout: post
 title: 'NETHSERVER: Quintessential Server Platform for Small Businesses'
 date: '2017-12-24 03:28:36'
 desc: 'NETHSERVER: Quintessential Server Platform for Small Businesses'
-keywords: 'Shabbir,Hasan,Shabbir-Hasan,Jekyll,gh-pages,website,blog'
+keywords: 'Nethserver,Linux,Webserver,Server'
 categories:
   - Linux
 tags:
@@ -15,7 +15,7 @@ icon: icon-centos
 ---
 If you run a small business, you might need an in-house operating system to serve as a veritable multi-tool. Many businesses opt for Microsoft Windows Small Business Server. However, if you’re looking to cut costs and work with open source software, you have plenty of choices, each of which can perfectly function to meet your small business needs.
 
-<p align="center"><img src="{{ site.img_path }}/linux/AI-Artificial-Intelligence.jpg" alt="Thanks to Stefan Stefancik for making this photo available freely on @unsplash" height="auto" width="75%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/linux/startup.jpg" alt="Thanks to Stefan Stefancik for making this photo available freely on @unsplash" height="auto" width="75%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 *Nethserver: Follow these steps to get started with Nethserver and see if it doesn’t make for an outstanding solution for your small business. Originally published at* [Linux.com](https://goo.gl/TrzkJU)
 
 One such option is the CentOS 7 based [Nethserver](http://www.nethserver.org/). It’s an outstanding small business platform that’s flexible enough to be just what you need and nothing more. Once installed, you can add the software necessary make business happen. Nethserver is quick to install, easy to set up, and simple to manage.
