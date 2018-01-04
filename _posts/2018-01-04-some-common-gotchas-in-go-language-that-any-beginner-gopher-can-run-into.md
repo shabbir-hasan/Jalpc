@@ -5,7 +5,7 @@ date: '2018-01-04 12:50:36'
 desc: 'Some Common GOTCHAS in GO LANGUAGE that any beginner Gopher can run into'
 keywords: 'Nethserver,Linux,Webserver,Server'
 categories:
-  - golang
+  - Golang
 tags:
   - GO
   - GO Language
@@ -18,11 +18,11 @@ First thing is first. Happy New Years 🎉🎉
 
 Now that’s out of the way, let’s talk about Go. I recently finished learning my basic perliminary real Go program. The process was quite fun and I learned a lot about Go in the process. So, to wrap up my first official foray into Rob Pike’s mystical land of gophers, I decided to write down some of the common “Gotchas!” that any beginning Gopher - like me - can run into.
 
-<p align="center"><img src="{{ site.img_path }}/golang/golang-1.jpg" alt="Gophers can be quite aggressive sometimes" height="auto" width="95%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/golang/golang-1.jpg" alt="Gophers can be quite aggressive sometimes" height="auto" width="55%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 > **Gophers** can be quite aggressive sometimes
 
-
+&nbsp;
 # **⚠️ #1. Range**
 ----------
 The range function is one of the most commonly used functions in Go. Here’s a sample use case of the range function. Note that for some demented reason, we decided to make all the animals in the zoo have 999 legs.
