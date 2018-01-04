@@ -22,6 +22,7 @@ Now that’s out of the way, let’s talk about Go. I recently finished learning
 
 > **Gophers** can be quite aggressive sometimes
 
+
 # **⚠️ #1. Range**
 ----------
 The range function is one of the most commonly used functions in Go. Here’s a sample use case of the range function. Note that for some demented reason, we decided to make all the animals in the zoo have 999 legs.
@@ -70,6 +71,7 @@ This may look quite trivial but you may be surprised to find this as a one of th
 
 [» Go playground #1 for you to play around in](https://play.golang.org/p/jhL_MNbXnPC)
 
+ 
 # **⚠️ #2. The … thingy**
 ----------
 You may have used the … keyword in the C programming language to create a variadic function; [variadic function](https://www.gnu.org/software/libc/manual/html_node/Variadic-Functions.html) is a function that takes a variable number or type of arguments.
@@ -119,6 +121,7 @@ You’d think that the compiler would throw an error here for using the variadic
 > In Go, **variadic parameters are converted to slices by the compiler**
 
 [» Go playground #2 for you to play around in](https://play.golang.org/p/303g8_1IVFD)
+
 
 # **⚠️ #3. Slicing**
 ----------
