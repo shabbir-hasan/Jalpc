@@ -18,9 +18,10 @@ First thing is first. Happy New Years 🎉🎉
 
 Now that’s out of the way, let’s talk about Go. I recently finished learning my basic perliminary real Go program. The process was quite fun and I learned a lot about Go in the process. So, to wrap up my first official foray into Rob Pike’s mystical land of gophers, I decided to write down some of the common “Gotchas!” that any beginning Gopher - like me - can run into.
 
-<p align="center"><img src="{{ site.img_path }}/golang/golang-1.jpg" alt="Gophers can be quite aggressive sometimes" height="auto" width="auto" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/golang/golang-1.jpg" alt="Gophers can be quite aggressive sometimes" height="auto" width="30%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 > **Gophers** can be quite aggressive sometimes
+
 &nbsp;
 # **⚠️ #1. Range**
 ----------
@@ -69,6 +70,7 @@ In order to modify an element within the array, we must change the element via i
 This may look quite trivial but you may be surprised to find this as a one of the most common source of bugs; at least for me!
 
 [» Go playground #1 for you to play around in](https://play.golang.org/p/jhL_MNbXnPC)
+
 &nbsp;
 # **⚠️ #2. The … thingy**
 ----------
@@ -119,6 +121,7 @@ You’d think that the compiler would throw an error here for using the variadic
 > In Go, **variadic parameters are converted to slices by the compiler**
 
 [» Go playground #2 for you to play around in](https://play.golang.org/p/303g8_1IVFD)
+
 &nbsp;
 # **⚠️ #3. Slicing**
 ----------
