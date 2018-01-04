@@ -64,15 +64,18 @@ The above code looks innocent enough. However, you may be surprised to find that
 
 In order to modify an element within the array, we must change the element via its **pointer.**
 
+```golang
     for idx, _ := range zoo {
       zoo[idx].legs = 999
     }
+```
+
 This may look quite trivial but you may be surprised to find this as a one of the most common source of bugs; at least for me!
 
 [» Go playground #1 for you to play around in](https://play.golang.org/p/jhL_MNbXnPC)
 
 &nbsp;
-# **⚠️ #2. The … thingy**
+# **⚠️ #2. The … Thingy**
 ----------
 You may have used the … keyword in the C programming language to create a variadic function; [variadic function](https://www.gnu.org/software/libc/manual/html_node/Variadic-Functions.html) is a function that takes a variable number or type of arguments.
 
