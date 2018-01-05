@@ -12,6 +12,7 @@ tags:
   - GOLANG
   - Programming
   - Learning Go Language
+  - Google GO
 icon: icon-go
 ---
 First thing is first. Happy New Years 🎉🎉
