@@ -15,7 +15,7 @@ tags:
 icon: icon-python
 ---
 
-<p align="center"><img src="{{ site.img_path }}/python/python-strings/screenshot.png" alt="Common GOTCHAS in Python Strings" height="auto" width="50%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/python/python-strings/screenshot.png" alt="Common GOTCHAS in Python Strings" height="auto" width="65%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 Recently out of curiosity, I was set to explore how strings are implemented in CPython. The results were overwhelming. I realized that how little I knew about different string concepts and optimizations in Python.
 
