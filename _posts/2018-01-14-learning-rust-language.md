@@ -22,7 +22,7 @@ On the other hand C++, Go like programming languages are adapting for web develo
 
 &nbsp;
 # **is Rust worth knowing ?**
-
+----------
 <p align="center"><img src="{{ site.img_path }}/rust/learning-rust/safety-vs-control-performance-of-languages.png" alt="Common GOTCHAS in Python Strings" height="auto" width="50%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 <p align="center">http://thoughtram.io/rust-and-nickel/#/11</p>
 
@@ -48,10 +48,9 @@ and etc.
 
 It’s low level, safe, modern and feature rich. So it’s suitable for any type of software development. Other than that it’s a properly designed language. So you will be able to learn/practice new programming paradigms with Rust. Hope you got excited. OK, let’s start.
 
-
-
+&nbsp;
 # **Installation**
-
+----------
 There are many ways to install Rust on your system. For the moment the official way to install Rust is using [Rustup](https://rustup.rs/).
 
 > *⭐️ If you are on ***Microsoft Windows***, you have to install ***Visual C++ Build Tools*** 2013 or higher. The recommended way is installing [*Visual C++ 2015 Build Tools*](http://landinghub.visualstudio.com/visual-cpp-build-tools)* which requires additional 3–4 GBs.
@@ -60,25 +59,25 @@ There are many ways to install Rust on your system. For the moment the official 
 
 [📖](https://github.com/rust-lang-nursery/rustup.rs#installation) Rustup installs `rustc`, `cargo`, `rustup` and other standard tools to Cargo's `bin` directory. On Unix it is located at `$HOME/.cargo/bin` and on Windows at `%USERPROFILE%\.cargo\bin`. This is the same directory that `cargo install`will install Rust programs and Cargo plugins.
 
-**💡 **More information can be found on the [Github page of Rustup project](https://github.com/rust-lang-nursery/rustup.rs).
+**💡** More information can be found on the [Github page of Rustup project](https://github.com/rust-lang-nursery/rustup.rs).
 
-After installing Rust you can check the current version by typing `rustc --version` or** **`rustc -V` on your terminal to verify the success of the installation.
+After installing Rust you can check the current version by typing `rustc --version` or `rustc -V` on your terminal to verify the success of the installation.
 
-
-
+&nbsp;
 # **Hello World**
-
+----------
 ```rust
 fn main() {
     println!("Hello, world!");
 }
 ```
 
-`fn` means function. `main` function is the beginning of every Rust program. `println!` prints text to the console and its `!` indicate that it’s a [**macro**](https://doc.rust-lang.org/book/first-edition/macros.html)instead of a function.
+`fn` means function. `main` function is the beginning of every Rust program. `println!` prints text to the console and its `!` indicate that it’s a [**macro**](https://doc.rust-lang.org/book/first-edition/macros.html) instead of a function.
 
 **💡** Rust files should have *.rs* file extension and if you’re using more than one word for the file name, follow the [snake_case](https://en.wikipedia.org/wiki/Snake_case).
 
-▸ compiling via `rustc file.rs` ****▸ executing by `./file` on Linux and Mac or `file.exe` on Windows
+▸ compiling via `rustc file.rs`
+▸ executing by `./file` on Linux and Mac or `file.exe` on Windows
 
 💯 *These are the other usages of println! macro,*
 
@@ -107,10 +106,9 @@ fn main() {
 }
 ```
 
-
-
+&nbsp;
 # **Cargo, Crates and Basic Project Structure**
-
+----------
 Cargo is Rust’s build-in Package Manager. But mainly it uses for,
  ▸ Create new project : `cargo new`
  ▸ Update dependencies : `cargo update`
@@ -124,7 +122,7 @@ Other than that there are some cargo commands, especially for publishing crates 
  ▸ `cargo package` : make the local create uploadable to crates.io
  ▸ `cargo publish` : make the local create uploadable to crates.io and upload the crate
 
-⭐️ **A crate is a package. Crates can be shared via **[**Cargo**](https://crates.io/)**.**
+⭐️ **A crate is a package. Crates can be shared via [Cargo](https://crates.io/).**
 
 A crate can produce an executable or a library. In other words, it can be a binary crate or a library crate.
 1. `cargo new crate_name --bin` : produces an **executable**
@@ -150,7 +148,7 @@ and the second one generates,
 - **src** folder is the place to store the source code.
 - Each crate has an implicit crate root/ entry point. **main.rs** is the crate root for a binary crate and **lib.rs** is the crate root for a library crate.
 
-> *💡 When we build a binary crate via ***cargo build*** or ***cargo run***, the executable file will be stored in ***target/debug/*** folder. But when build it via ***cargo build --release ***for a release it will be stored in ***target/release/*** folder.*
+> *💡 When we build a binary crate via **cargo build** or **cargo run**, the executable file will be stored in **target/debug/** folder. But when build it via **cargo build --release** for a release it will be stored in **target/release/** folder.*
 
 This is how [Cargo Docs describes](http://doc.crates.io/guide.html#project-layout) about the recommended Project Layout,
 
@@ -172,17 +170,16 @@ This is how [Cargo Docs describes](http://doc.crates.io/guide.html#project-layou
 ```
 
 ▸ Source code goes in the src directory.
- ▸ The default library file is `src/lib.rs`. 
- ▸ The default executable file is `src/main.rs`. 
- ▸ Other executables can be placed in `src/bin/*.rs`. 
- ▸ Integration tests go in the `tests` directory (unit tests go in each file they're testing). 
- ▸ Examples go in the `examples` directory. 
- ▸ Benchmarks go in the `benches` directory.
+	 ▸ The default library file is `src/lib.rs`.
+	 ▸ The default executable file is `src/main.rs`.
+	 ▸ Other executables can be placed in `src/bin/*.rs`.
+	 ▸ Integration tests go in the `tests` directory (unit tests go in each file they're testing).
+	 ▸ Examples go in the `examples` directory.
+	 ▸ Benchmarks go in the `benches` directory.
 
-
-
+&nbsp;
 # **Comments and Documenting the code**
-
+----------
 Nested block comments are supported.
 
 **💡 Always avoid block comments, Use line comments instead.**
@@ -216,7 +213,7 @@ As you can see both use to document the same module. First comment has been adde
 **💡 Only use //! to write crate and module-level documentation, nothing else. When using mod blocks, use /// outside of the block.**
 
 > Also we can use **doc attributes** for documenting the code. 
-> **💡 **An *[*attribute*](https://doc.rust-lang.org/reference/attributes.html)* is a general, free-form ***metadatum*** that is interpreted according to name, convention, and language and compiler version. Any item declaration may have an attribute applied to it.
+> **💡** An ***[attribute](https://doc.rust-lang.org/reference/attributes.html)*** is a general, free-form ***metadatum*** that is interpreted according to name, convention, and language and compiler version. Any item declaration may have an attribute applied to it.
 > In here each comments are equivalent to relevant data attributes.
 
 ```rust
@@ -227,13 +224,12 @@ As you can see both use to document the same module. First comment has been adde
 #![doc="Foo"]
 ```
 
-
-
+&nbsp;
 # **Variable bindings , Constants & Statics**
+----------
+⭐️ In Rust variable are **immutable by default**, so we call them **Variable bindings**. To make them mutable, **mut** keyword is used.
 
-⭐️ In Rust variable are **immutable by default**, so we call them **Variable bindings**.** **To make them mutable, **mut** keyword is used.
-
-⭐️ Rust is a **statically typed** language; It checks data type at compile time. But it **doesn’t require you to actually type it when declare variable bindings**. On that case compiler checks the usage and set a better data type for it. But for **constants and statics you must annotate the type. **Types come after a colon(:)
+⭐️ Rust is a **statically typed** language; It checks data type at compile time. But it **doesn’t require you to actually type it when declare variable bindings**. On that case compiler checks the usage and set a better data type for it. But for **constants and statics you must annotate the type.** Types come after a colon(:)
 
 - **Variable bindings**
 
@@ -268,13 +264,12 @@ static N: i32 = 5;
 
 **💡** Usually statics are placed at top of the code file, outside the functions.
 
-
-
+&nbsp;
 # **Functions**
-
-▸ Functions are declared with the keyword `fn` 
- ▸ When using **arguments**, you **must declare data types**.
- ▸ By default functions **return empty tuple **`()`. If you want to return a value, **return type must be specified** after `->`
+----------
+▸ Functions are declared with the keyword `fn`
+	 ▸ When using **arguments**, you **must declare data types**.
+	 ▸ By default functions **return empty tuple **`()`. If you want to return a value,** return type must be specified** after `->`
 
 ```rust
 //Hello world function
@@ -311,10 +306,9 @@ fn plus_two(b: fn(i32) -> i32, x: i32) -> i32 {
 println!("{}", plus_two(b, 2)); //4
 ```
 
-
-
+&nbsp;
 # **Primitive Data Types**
-
+----------
 - **bool** : true or false
 
 ```rust
@@ -348,7 +342,7 @@ let y = '😎';
 
 
 
-**💡** Same as signed numbers, min and max values are based on IEEE standard for Binary Floating-Point Arithmetic; From **0 to 2ⁿ-1 **. Same way you can use **min_value()** and **max_value() **to find min and max of each integer type, ex. u8::max_value();
+**💡** Same as signed numbers, min and max values are based on IEEE standard for Binary Floating-Point Arithmetic; From **0 to 2ⁿ-1**. Same way you can use **min_value()** and **max_value()** to find min and max of each integer type, ex. u8::max_value();
 
 - **isize** : variable sized signed(+/-) integer
   Simply this is the data type to cover all signed integer types but memory allocates according to the size of a pointer. Min and max values are similar to i64 .
@@ -358,7 +352,7 @@ let y = '😎';
   Similar to float in other languages, **Single precision**. Should avoid using this unless you need to reduce memory consumption badly or if you are doing low-level optimization, when targeted hardware not supports for double-precision or when single-precision is faster than double-precision on it.
 - **f64** : 64-bit floating point
   Similar to double in other languages, **Double precision**.
-- **arrays : **fixed-size list of elements of same data type
+- **arrays : ** fixed-size list of elements of same data type
 
 ```rust
 let a = [1, 2, 3]; // a[0] = 1, a[1] = 2, a[2] = 3
@@ -409,7 +403,7 @@ println!("{:#?}", a);
 //  )
 ```
 
-⭐️ Tuples are also **immutable** by default and** even with mut, its element count can not be changed. Also if you want to change an element’s value, new value should have the same data type of previous value.**
+⭐️ Tuples are also **immutable** by default and **even with mut, its element count can not be changed. Also if you want to change an element’s value, new value should have the same data type of previous value.**
 
 - **slice** : dynamically-sized reference to another data structure
   Think you want to get/pass a part of an array or any other data structure. Instead of copy it to another array (or same data structure), Rust allows to create a view/reference to access only that part of data. And it can be mutable or not.
@@ -433,12 +427,12 @@ let a = "Hello, world."; //a: &'static str
 let b: &str = "こんにちは, 世界!";
 ```
 
-⭐️* str* is an **immutable/statically allocated** **slice** holding **an unknown sized sequence of UTF-8** code points stored in somewhere in memory. **&str** can be used to borrow and assign the whole array to the given variable binding.
+⭐️ *str* is an **immutable/statically allocated** **slice** holding **an unknown sized sequence of UTF-8** code points stored in somewhere in memory. **&str** can be used to borrow and assign the whole array to the given variable binding.
 
 > *🔎* A [**String**](https://doc.rust-lang.org/std/string/struct.String.html) is a **heap**-allocated string. This string is growable, and is also guaranteed to be UTF-8. They are commonly created by converting from a string slice using the **to_string()** and **String::from()** methods. 
 > *ex: “Hello”.to_string();  String::from(“Hello”);*
 
-**💡** In general, you should use **String** when you need **ownership**, and **&str**when you just need to **borrow a string**.
+**💡** In general, you should use **String** when you need **ownership**, and **&str** when you just need to **borrow a string**.
 
 - **functions**As we discussed on above *functions* section, *b* is a function pointer, to plus_one function
 
@@ -460,10 +454,9 @@ fn plus_two(b: fn(i32) -> i32, x: i32) -> i32 {
 println!("{}", plus_two(b, 2)); //4
 ```
 
-
-
+&nbsp;
 # **Operators**
-
+----------
 - **Arithmetic Operators** : + - * / %
 
 ```rust
@@ -530,8 +523,8 @@ let f = a << b; //4  (add 2 positions to the end -> '01'+'00' -> 100)
 let g = a >> a; //0  (remove 2 positions from the end -> o̶1̶ -> 0)
 ```
 
-- **Assignment and Compound Assignment Operators** 
-  The = operator is used to assign a name to a value or a function. Compound Assignment Operators are created by composing one of + - * / % & | ^ << >> operators with = operator.
+- **Assignment and Compound Assignment Operators**
+  The `=` operator is used to assign a name to a value or a function. Compound Assignment Operators are created by composing one of `+ - * / % & | ^ << >>` operators with `=` operator.
 
 ```rust
 let mut a = 2;
@@ -557,12 +550,11 @@ let b = (a as f64) / 2.0; //7.5
 ```
 
 - **Borrowing and Dereference Operators** : & &mut *
-  The *&* or *&mut* operators are used for borrowing and operator for Dereferencing. 🔥 **Refer ** [Unary operator expressions section](https://doc.rust-lang.org/reference/expressions.html#unary-operator-expressions) on Rust Reference.
+  The *&* or *&mut* operators are used for borrowing and operator for Dereferencing. 🔥 **Refer** [Unary operator expressions section](https://doc.rust-lang.org/reference/expressions.html#unary-operator-expressions) on Rust Reference.
 
-
-
+&nbsp;
 # **Control Flows**
-
+----------
 - **if - else if - else**
 
 ```rust
@@ -761,11 +753,7 @@ OK, Let’s stop the first post of **Learning Rust** series in here. In this pos
 
 ▸ Installation & Hello World ▸ Cargo & Crates ▸ Variable bindings , Constants & Statics ▸ Comments ▸ Functions ▸ Primitive Data Types ▸ Operators ▸ Control Flows
 
-
-
 > *🐣* *As you know, I am not an expert in Rust. I’m a learner who is just learning Rust. So if you found any mistake or something I need to change, even a spelling or a grammar mistake, please let me know. Thanks.*
-
-
 
 🎓 For more information you can go through, 
  ▸ Rust Documentation [First edition](https://doc.rust-lang.org/stable/book/first-edition/) & [Second edition](https://doc.rust-lang.org/stable/book/second-edition/)
@@ -781,10 +769,6 @@ OK, Let’s stop the first post of **Learning Rust** series in here. In this pos
  ▸ [Programming Rust](https://www.safaribooksonline.com/library/view/programming-rust/9781491927274/) 🎖
  ▸ [Rust Essentials](https://www.safaribooksonline.com/search/?query=%22Rust+Essentials%22)
 
-
-
 > *“Every great wizard in history has started out as nothing more than what we are now, students. If they can do it, why not us?”*   *J.K. Rowling (Harry Potter and the Order of the Phoenix)*
 
-
-
-NEXT**▸ Vectors ▸ Structs ▸ Enums ▸ Generics ▸ Impls & Traits
+**NEXT**▸ Vectors ▸ Structs ▸ Enums ▸ Generics ▸ Impls & Traits
