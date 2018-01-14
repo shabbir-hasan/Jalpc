@@ -41,7 +41,8 @@ Rust is a very modern language. It uses [LLVM](https://en.wikipedia.org/wiki/LLV
 - Functional Programming : **Haskell, OCaml, F#**
 - Attributes : **ECMA-335**
 - Memory Model and Memory Management : **C++, ML Kit, Cyclone**
-- Type Classes : **Haskell **- Crate : *Assembly* in the **ECMA**-335 CLI model
+- Type Classes : **Haskell**
+- Crate : *Assembly* in the **ECMA**-335 CLI model
 - Channels and Concurrency : **Newsqueak, Alef, Limbo**
 - Message passing and Thread failure : **Erlang**
 
@@ -172,12 +173,12 @@ This is how [Cargo Docs describes](http://doc.crates.io/guide.html#project-layou
 ```
 
 - Source code goes in the src directory.
-	 - The default library file is `src/lib.rs`.
-	 - The default executable file is `src/main.rs`.
-	 - Other executables can be placed in `src/bin/*.rs`.
-	 - Integration tests go in the `tests` directory (unit tests go in each file they're testing).
-	 - Examples go in the `examples` directory.
-	 - Benchmarks go in the `benches` directory.
+   - The default library file is `src/lib.rs`.
+    - The default executable file is `src/main.rs`.
+    - Other executables can be placed in `src/bin/*.rs`.
+    - Integration tests go in the `tests` directory (unit tests go in each file they're testing).
+    - Examples go in the `examples` directory.
+    - Benchmarks go in the `benches` directory.
 
 &nbsp;
 # **Comments and Documenting the code**
@@ -753,7 +754,7 @@ for person in group.iter() { //👍 group.iter() turn the array into a simple it
 
 OK, Let’s stop the first post of **Learning Rust** series in here. In this post I just tried to summarize about the very basics of Rust .
 
-- Installation & Hello World - Cargo & Crates - Variable bindings , Constants & Statics - Comments - Functions - Primitive Data Types - Operators - Control Flows
+▸ Installation & Hello World ▸ Cargo & Crates ▸ Variable bindings , Constants & Statics ▸ Comments ▸ Functions ▸ Primitive Data Types ▸ Operators ▸ Control Flows
 
 > *🐣* *As you know, I am not an expert in Rust. I’m a learner who is just learning Rust. So if you found any mistake or something I need to change, even a spelling or a grammar mistake, please let me know. Thanks.*
 
@@ -773,4 +774,4 @@ OK, Let’s stop the first post of **Learning Rust** series in here. In this pos
 
 > *“Every great wizard in history has started out as nothing more than what we are now, students. If they can do it, why not us?”*   *J.K. Rowling (Harry Potter and the Order of the Phoenix)*
 
-**NEXT**- Vectors - Structs - Enums - Generics - Impls & Traits
+**NEXT** ▸ Vectors ▸ Structs ▸ Enums ▸ Generics ▸ Impls & Traits
