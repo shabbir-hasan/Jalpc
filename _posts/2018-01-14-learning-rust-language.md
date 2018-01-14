@@ -14,7 +14,7 @@ tags:
   - Learning Rust
 icon: icon-rust
 ---
-<p align="center"><img src="{{ site.img_path }}/rust/learning-rust/learning-rust.jpg" alt="Learning Rust Language" height="auto" width="50%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
+<p align="center"><img src="{{ site.img_path }}/rust/learning-rust/learning-rust.jpg" alt="Learning Rust Language" height="auto" width="75%" max-height="100%" max-width="100%"><!-- .element height=auto width=auto max-height=100% max-width=100% --></p>
 
 It’s true that web technologies are slowly adapting for native app development via asmjs, NativeScript, Electron, WebAssembly, React Native but future web application development will be more complex because of Emerging Connected Cars and VR Ecosystems.
 
@@ -33,16 +33,17 @@ Rust is a **systems programming language** which focused on **safety, speed, and
 Rust is a very modern language. It uses [LLVM](https://en.wikipedia.org/wiki/LLVM) on its backend. Rust supports a mixture of imperative procedural, concurrent actor, object-oriented and pure functional styles. It also supports generic programming and metaprogramming, in both static and dynamic styles.
 
 [📖](https://doc.rust-lang.org/reference/influences.html) By the way Rust is not a particularly original language. Its design elements came from a wide range of sources.
- ▸ Abstract Machine Model : C
- ▸ Data types : **C, SML, OCaml, Lisp, Limbo**
- ▸ Optional Bindings : **Swift**
- ▸ Hygienic Macros : **Scheme**
- ▸ Functional Programming : **Haskell, OCaml, F#**
- ▸ Attributes : **ECMA-335**
- ▸ Memory Model and Memory Management : **C++, ML Kit, Cyclone**
- ▸ Type Classes : **Haskell **▸ Crate : *Assembly* in the **ECMA**-335 CLI model
- ▸ Channels and Concurrency : **Newsqueak, Alef, Limbo**
- ▸ Message passing and Thread failure : **Erlang**
+
+- Abstract Machine Model : C
+- Data types : **C, SML, OCaml, Lisp, Limbo**
+- Optional Bindings : **Swift**
+- Hygienic Macros : **Scheme**
+- Functional Programming : **Haskell, OCaml, F#**
+- Attributes : **ECMA-335**
+- Memory Model and Memory Management : **C++, ML Kit, Cyclone**
+- Type Classes : **Haskell **- Crate : *Assembly* in the **ECMA**-335 CLI model
+- Channels and Concurrency : **Newsqueak, Alef, Limbo**
+- Message passing and Thread failure : **Erlang**
 
 and etc.
 
@@ -53,7 +54,7 @@ It’s low level, safe, modern and feature rich. So it’s suitable for any type
 ----------
 There are many ways to install Rust on your system. For the moment the official way to install Rust is using [Rustup](https://rustup.rs/).
 
-> *⭐️ If you are on ***Microsoft Windows***, you have to install ***Visual C++ Build Tools*** 2013 or higher. The recommended way is installing [*Visual C++ 2015 Build Tools*](http://landinghub.visualstudio.com/visual-cpp-build-tools)* which requires additional 3–4 GBs.
+> ⭐️ If you are on **Microsoft Windows**, you have to install **Visual C++ Build Tools** 2013 or higher. The recommended way is installing [Visual C++ 2015 Build Tools](http://landinghub.visualstudio.com/visual-cpp-build-tools) which requires additional 3–4 GBs.
 
 [📖](https://github.com/rust-lang-nursery/rustup.rs) Rustup installs The Rust Programming Language from the official release channels, enabling you to easily switch between stable, beta, and nightly compilers and keep them updated. It makes cross-compiling simpler with binary builds of the standard library for common platforms.
 
@@ -76,8 +77,8 @@ fn main() {
 
 **💡** Rust files should have *.rs* file extension and if you’re using more than one word for the file name, follow the [snake_case](https://en.wikipedia.org/wiki/Snake_case).
 
-▸ compiling via `rustc file.rs`
-▸ executing by `./file` on Linux and Mac or `file.exe` on Windows
+- compiling via `rustc file.rs`
+- executing by `./file` on Linux and Mac or `file.exe` on Windows
 
 💯 *These are the other usages of println! macro,*
 
@@ -110,17 +111,18 @@ fn main() {
 # **Cargo, Crates and Basic Project Structure**
 ----------
 Cargo is Rust’s build-in Package Manager. But mainly it uses for,
- ▸ Create new project : `cargo new`
- ▸ Update dependencies : `cargo update`
- ▸ Build project : `cargo build`
- ▸ Build and run a project : `cargo run`
- ▸ Run tests : `cargo test `
- ▸ Generate documentation via *rustdoc*: `cargo doc`
+
+ - Create new project : `cargo new`
+ - Update dependencies : `cargo update`
+ - Build project : `cargo build`
+ - Build and run a project : `cargo run`
+ - Run tests : `cargo test `
+ - Generate documentation via *rustdoc*: `cargo doc`
 
 Other than that there are some cargo commands, especially for publishing crates directly via cargo.
- ▸ `cargo login` : acquiring an API token
- ▸ `cargo package` : make the local create uploadable to crates.io
- ▸ `cargo publish` : make the local create uploadable to crates.io and upload the crate
+- `cargo login` : acquiring an API token
+- `cargo package` : make the local create uploadable to crates.io
+- `cargo publish` : make the local create uploadable to crates.io and upload the crate
 
 ⭐️ **A crate is a package. Crates can be shared via [Cargo](https://crates.io/).**
 
@@ -169,13 +171,13 @@ This is how [Cargo Docs describes](http://doc.crates.io/guide.html#project-layou
     └── some-integration-tests.rs
 ```
 
-▸ Source code goes in the src directory.
-	 ▸ The default library file is `src/lib.rs`.
-	 ▸ The default executable file is `src/main.rs`.
-	 ▸ Other executables can be placed in `src/bin/*.rs`.
-	 ▸ Integration tests go in the `tests` directory (unit tests go in each file they're testing).
-	 ▸ Examples go in the `examples` directory.
-	 ▸ Benchmarks go in the `benches` directory.
+- Source code goes in the src directory.
+	 - The default library file is `src/lib.rs`.
+	 - The default executable file is `src/main.rs`.
+	 - Other executables can be placed in `src/bin/*.rs`.
+	 - Integration tests go in the `tests` directory (unit tests go in each file they're testing).
+	 - Examples go in the `examples` directory.
+	 - Benchmarks go in the `benches` directory.
 
 &nbsp;
 # **Comments and Documenting the code**
@@ -267,9 +269,9 @@ static N: i32 = 5;
 &nbsp;
 # **Functions**
 ----------
-▸ Functions are declared with the keyword `fn`
-	 ▸ When using **arguments**, you **must declare data types**.
-	 ▸ By default functions **return empty tuple **`()`. If you want to return a value,** return type must be specified** after `->`
+- Functions are declared with the keyword `fn`
+- When using **arguments**, you **must declare data types**.
+- By default functions **return empty tuple** `()`. If you want to return a value, **return type must be specified** after `->`
 
 ```rust
 //Hello world function
@@ -352,7 +354,7 @@ let y = '😎';
   Similar to float in other languages, **Single precision**. Should avoid using this unless you need to reduce memory consumption badly or if you are doing low-level optimization, when targeted hardware not supports for double-precision or when single-precision is faster than double-precision on it.
 - **f64** : 64-bit floating point
   Similar to double in other languages, **Double precision**.
-- **arrays : ** fixed-size list of elements of same data type
+- **arrays :** fixed-size list of elements of same data type
 
 ```rust
 let a = [1, 2, 3]; // a[0] = 1, a[1] = 2, a[2] = 3
@@ -751,24 +753,24 @@ for person in group.iter() { //👍 group.iter() turn the array into a simple it
 
 OK, Let’s stop the first post of **Learning Rust** series in here. In this post I just tried to summarize about the very basics of Rust .
 
-▸ Installation & Hello World ▸ Cargo & Crates ▸ Variable bindings , Constants & Statics ▸ Comments ▸ Functions ▸ Primitive Data Types ▸ Operators ▸ Control Flows
+- Installation & Hello World - Cargo & Crates - Variable bindings , Constants & Statics - Comments - Functions - Primitive Data Types - Operators - Control Flows
 
 > *🐣* *As you know, I am not an expert in Rust. I’m a learner who is just learning Rust. So if you found any mistake or something I need to change, even a spelling or a grammar mistake, please let me know. Thanks.*
 
 🎓 For more information you can go through, 
- ▸ Rust Documentation [First edition](https://doc.rust-lang.org/stable/book/first-edition/) & [Second edition](https://doc.rust-lang.org/stable/book/second-edition/)
- ▸ [The Rust Reference](https://doc.rust-lang.org/reference/) & [Rust Syntax Index](https://doc.rust-lang.org/book/first-edition/syntax-index.html)
- ▸ [Rust by Example](http://rustbyexample.com/)
- ▸ [Rust Programming Course of University of Pennsylvania](https://cis198-2016f.github.io/schedule/) 🎖
+ - Rust Documentation [First edition](https://doc.rust-lang.org/stable/book/first-edition/) & [Second edition](https://doc.rust-lang.org/stable/book/second-edition/)
+ - [The Rust Reference](https://doc.rust-lang.org/reference/) & [Rust Syntax Index](https://doc.rust-lang.org/book/first-edition/syntax-index.html)
+ - [Rust by Example](http://rustbyexample.com/)
+ - [Rust Programming Course of University of Pennsylvania](https://cis198-2016f.github.io/schedule/) 🎖
 
 👥 To get a help,
- ▸ [The Rust Community](https://www.rust-lang.org/community.html) & [#rust-beginners IRC](https://client00.chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-beginners) 🎖
- ▸ [Sub-Reddit, /r/rust](https://www.reddit.com/r/rust)
+ - [The Rust Community](https://www.rust-lang.org/community.html) & [#rust-beginners IRC](https://client00.chat.mibbit.com/?server=irc.mozilla.org&channel=%23rust-beginners) 🎖
+ - [Sub-Reddit, /r/rust](https://www.reddit.com/r/rust)
 
 📚 Books
- ▸ [Programming Rust](https://www.safaribooksonline.com/library/view/programming-rust/9781491927274/) 🎖
- ▸ [Rust Essentials](https://www.safaribooksonline.com/search/?query=%22Rust+Essentials%22)
+ - [Programming Rust](https://www.safaribooksonline.com/library/view/programming-rust/9781491927274/) 🎖
+ - [Rust Essentials](https://www.safaribooksonline.com/search/?query=%22Rust+Essentials%22)
 
 > *“Every great wizard in history has started out as nothing more than what we are now, students. If they can do it, why not us?”*   *J.K. Rowling (Harry Potter and the Order of the Phoenix)*
 
-**NEXT**▸ Vectors ▸ Structs ▸ Enums ▸ Generics ▸ Impls & Traits
+**NEXT**- Vectors - Structs - Enums - Generics - Impls & Traits
