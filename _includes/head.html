@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="yandex-verification" content="edd3c1ce6d57190e" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1; minimum-scale=1; user-scalable=no;">
   {% if page.desc %}
     <meta content="{{ page.desc }}" name="description">
   {% endif %}
@@ -31,14 +31,22 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- Main CSS -->
-  <link href="{{ "/static/assets/app-20171204.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <link href="{{ "/static/assets/app-20180125.min.css" | prepend: site.baseurl }}" rel="stylesheet">
   <link href="{{ "/static/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">
   {% if page.title == 'Tags' %}
   <link href="{{ "/static/assets/app-20170921.min.css" | prepend: site.baseurl }}" rel="stylesheet">
   {% endif %}
   
   <!-- Main Scripts -->
-  <script src="{{"/static/assets/app-20171204.min.js"| prepend: site.baseurl }}"></script>
-  <script src="{{"/static/assets/blog-20171204.min.js"| prepend: site.baseurl }}"></script>
+  <script src="{{"/static/assets/app-20180125.min.js"| prepend: site.baseurl }}"></script>
+  <script src="{{"/static/assets/blog-20180125.min.js"| prepend: site.baseurl }}"></script>
 
+  <!-- Google AdSense -->
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-6196184668650108",
+      enable_page_level_ads: true
+    });
+  </script>
 </head>
