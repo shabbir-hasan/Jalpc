@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/shabbirhasan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.shabbir.pw
+  * I am shabbirhasan (https://keybase.io/shabbirhasan) on keybase.
+  * I have a public key ASDGa7Dj0fU2PxZUvkWYRihG6mM-hDbsd_a15HW3TbBuLgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c66bb0e3d1f5363f1654be4598462846ea633e8436ec77f6b5e475b74db06e2e0a",
+      "host": "keybase.io",
+      "kid": "0120c66bb0e3d1f5363f1654be4598462846ea633e8436ec77f6b5e475b74db06e2e0a",
+      "uid": "b3c750ceddd60f4f7a99b25a00188919",
+      "username": "shabbirhasan"
+    },
+    "merkle_root": {
+      "ctime": 1521483481,
+      "hash": "e9a257edac0b77c42159b1e4b62e9c4f5d872a4545b24378f7117ecfe5f453a5ed75a215e35b1896e0f94baf8d0fd0790b88f08741461b25b1e1fc5c25aa06be",
+      "hash_meta": "a5b1a9cb18812bef27622ecff0424e8f39e653e44ea520477a661df9ec376e59",
+      "seqno": 2257027
+    },
+    "service": {
+      "hostname": "www.shabbir.pw",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.45"
+  },
+  "ctime": 1521483497,
+  "expire_in": 504576000,
+  "prev": "17c5511c643f596e433faa571e35a858b8ea9b5a23282f03f482244eac15db6c",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgxmuw49H1Nj8WVL5FmEYoRupjPoQ27Hf2teR1t02wbi4Kp3BheWxvYWTFA0p7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzY2YmIwZTNkMWY1MzYzZjE2NTRiZTQ1OTg0NjI4NDZlYTYzM2U4NDM2ZWM3N2Y2YjVlNDc1Yjc0ZGIwNmUyZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYzY2YmIwZTNkMWY1MzYzZjE2NTRiZTQ1OTg0NjI4NDZlYTYzM2U4NDM2ZWM3N2Y2YjVlNDc1Yjc0ZGIwNmUyZTBhIiwidWlkIjoiYjNjNzUwY2VkZGQ2MGY0ZjdhOTliMjVhMDAxODg5MTkiLCJ1c2VybmFtZSI6InNoYWJiaXJoYXNhbiJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUyMTQ4MzQ4MSwiaGFzaCI6ImU5YTI1N2VkYWMwYjc3YzQyMTU5YjFlNGI2MmU5YzRmNWQ4NzJhNDU0NWIyNDM3OGY3MTE3ZWNmZTVmNDUzYTVlZDc1YTIxNWUzNWIxODk2ZTBmOTRiYWY4ZDBmZDA3OTBiODhmMDg3NDE0NjFiMjViMWUxZmM1YzI1YWEwNmJlIiwiaGFzaF9tZXRhIjoiYTViMWE5Y2IxODgxMmJlZjI3NjIyZWNmZjA0MjRlOGYzOWU2NTNlNDRlYTUyMDQ3N2E2NjFkZjllYzM3NmU1OSIsInNlcW5vIjoyMjU3MDI3fSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5zaGFiYmlyLnB3IiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuNDUifSwiY3RpbWUiOjE1MjE0ODM0OTcsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiMTdjNTUxMWM2NDNmNTk2ZTQzM2ZhYTU3MWUzNWE4NThiOGVhOWI1YTIzMjgyZjAzZjQ4MjI0NGVhYzE1ZGI2YyIsInNlcW5vIjo5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQHFpIY6za7ECfWjO4DH9MGvY0BhSwvr4tUXhbXtnB0+zTXl/j1X8Z4glj5CyMv0hV22it8QkKnTYfjC88D8OWgWoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCB6pc8WJmjKJs7RbKDA6xzKid//d+NI+YyoM8RNiHUnUqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/shabbirhasan
+
+==================================================================
